@@ -13,11 +13,22 @@ h1
     line-height: 1;
     font-family: sans-serif; */
     margin: 0;
+    margin-top: 50px;
     font: italic 100 40px / 1 sans-serif;
+    color: purple;
+    /* background: #333; */
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: -2px;
 }
 
 p
 {
     font-weight: 800;
     margin: 0;
+    width: 400px;
+    text-align: justify;
+    text-transform: capitalize;
+    /* white-space: nowrap; */
 }
