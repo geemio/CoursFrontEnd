@@ -5,30 +5,18 @@ body
     margin: 0;
 }
 
-h1
+.box
 {
-    /* font-style: italic;
-    font-weight: 100;
-    font-size: 50px;
-    line-height: 1;
-    font-family: sans-serif; */
-    margin: 0;
-    margin-top: 50px;
-    font: italic 100 40px / 1 sans-serif;
-    color: purple;
-    /* background: #333; */
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: overline;
-    letter-spacing: -2px;
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid #333; */
+    margin: 10px;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.1)/*inset*/;
+
 }
 
-p
+h2
 {
-    font-weight: 800;
-    margin: 0;
-    width: 400px;
-    text-align: justify;
-    text-transform: capitalize;
-    /* white-space: nowrap; */
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
