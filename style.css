@@ -30,3 +30,15 @@ body
     
 }
 /*position relative donne la priorité en empilement et z-index établit la priorité entre position relative*/
+.contenu
+{
+    width: 100px;
+    height: 100px;
+    background: violet;
+
+}
+.b1
+{
+    background: orange;
+    position: absolute;
+}
