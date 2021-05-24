@@ -15,15 +15,32 @@ body
     
 }
 
-.parent
+/* .box:active
 {
-    font-size:5px;
+    background-color: salmon;
+} */
+.box:hover
+{
+    background: violet;
+}
+/* input:focus
+{
+    background: lightblue;
+} */
+/* input:checked
+{
+    width: 250px;
+    height: 250px;
+} */
+a:visited
+{
 
 }
-
-h1
+li:last-child
 {
-    color: #f1f1f1;
-    /*font-size: 5rem;/*rem => (fois 16px)*/
-    font-size: 5em;/*fait reference au premier parent rencontré (ici le parent fait 5px donc on a une police de 5*5px)
+    background: #000;
+}
+li:nth-child(2)
+{
+    background: tan;
 }
