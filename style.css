@@ -1,44 +1,46 @@
+*, ::before, ::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body
 {
     width: 100%;
     height: 100vh;
     background: #333;
     font-family: sans-serif;
-    
+}
 
-}
-h1
+.box
 {
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #f7eded;
-}
-.btn
-{
-    margin: 10 auto;
     width: 300px;
-    height: 70px;
-    background: hsl(58, 71%, 34%);
-    color: #f1f1f1;
-    text-align: center;
-    font-size: 25px;
-    line-height: 70px;
-    border-radius: 9999px;
-    margin: auto;
-    box-shadow: 0px 20px 010px yellow ;
-    cursor: pointer;
-
-
+    height: 300px;
+    margin: 20px;
+    background: salmon;
+    /*
+    annimation-name: spin;
+    annimation-duration: 2s;
+    annimation-iteration-count: 1;
+    annimation-fill-mode: backwards;(forwards)
+    annimation-direction:alternate;
+    annimation-timing-function: ease-in;(ease-out)
+    */
+    
+     
 }
-.btn:hover
-{
-    transform: translate(0px, 5px);
-    box-shadow: 0px 10px 10px yellow;
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    65%{
+        background: lightblue;
+    }
+    100% {
+        transform: rotate(720deg);
+    }
 }
-.btn:active
+.box:hover
 {
-   transform: translate(0px, 10px);
-   box-shadow: 0px 5px 10px yellow; 
+    animation: spin 2s;
 }
