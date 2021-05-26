@@ -24,11 +24,11 @@ body
                 rotate(360deg) 
                 scale(2)
                 skew(50deg,50deg)*/
-    transition: all 1000ms cubic-bezier(.71,-0.44,.63,1.43);
+    transition: all 1000ms cubic-bezier(.71,-0.44,.63,1.43);/*sur le site cubic bezier.com*/
     /*
     property
     duration
-    timing function
+    timing functiongit
     delay
     */
 
