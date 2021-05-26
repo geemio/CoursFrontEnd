@@ -13,6 +13,7 @@ body
 
 .box
 {
+    opacity: 0;
     width: 300px;
     height: 300px;
     margin: 20px;
@@ -24,18 +25,13 @@ body
                 rotate(360deg) 
                 scale(2)
                 skew(50deg,50deg)*/
-    transition: all 1000ms cubic-bezier(.71,-0.44,.63,1.43);/*sur le site cubic bezier.com*/
-    /*
-    property
-    duration
-    timing functiongit
-    delay
-    */
+    transition:     transform 0.5s ease-in-out,     
+                    opacity 0.3s ease-in;
 
 }
 .box:hover
 {
     transform: rotate(180deg);
-
+    opacity: 1;
 }
 
