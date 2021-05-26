@@ -7,75 +7,23 @@
 body
 {
     
-    background: #f1f1f1;
+    background: #333;
 
 }
 
-.anim-box
+.box
 {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #333;
-    margin: 100px auto;
-    position: relative;
-
-}
-
-.anim-interieure
-{
-    width: 100px;
-    height: 50px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: salmon;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background: orange;
-    text-align: center;
+    transform: translate(-50%,-50%)/*translate(50px,200px)
+                rotate(360deg) 
+                scale(2)
+                skew(50deg,50deg)*/
 
 }
-.rect
-{
-    background: #333;
-    display: inline-block;
-    height: 60px;
-    width: 5px;
-    margin: 0 1px;
-    animation: etire 1.2s infinite ;
-}
 
-@keyframes etire {
-    0%
-    {
-        transform: scaleY(0.4
-    );
-    }
-    40%
-    {
-        transform: scaleY(0.3);
-    }
-   80%
-    {
-        transform: scaleY(0.6);
-    }
-    100%
-    {
-        transform: scaleY(1);
-    }
-    
-}
-.rect2
-{
-    animation-delay: -1s;
-}
-.rect3
-{
-    animation-delay: -0.8;
-}
-.rect4
-{
-    animation-delay: -0.6s;
-}
-.rect5
-{
-    animation-delay: -0.4s;
-}
